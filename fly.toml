@@ -1,6 +1,6 @@
-# fly.toml app configuration file generated for md-v on 2026-11-03T19:13:33Z
+# fly.toml app configuration file generated for md-v on 2026-11-03T20:28:26Z
 #
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+# See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
 app = 'md-v'
@@ -11,9 +11,9 @@ primary_region = 'ams'
 [http_service]
   internal_port = 8080
   force_https = true
-  auto_stop_machines = 'stop'
+  auto_stop_machines = 'off'
   auto_start_machines = true
-  min_machines_running = 0
+  min_machines_running = 1
   processes = ['app']
 
 [[vm]]
