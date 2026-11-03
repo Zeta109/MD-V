@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for md-v on 2026-11-03T19:13:33Z
+# fly.toml app configuration file generated for md-v--j8l8a on 2026-11-03T20:14:48Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'md-v'
+app = 'md-v--j8l8a'
 primary_region = 'ams'
 
 [build]
